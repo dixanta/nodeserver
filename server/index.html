@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Node App</title>
+	<script src="assets/js/lib/angular.min.js"></script>
+</head>
+<body ng-app="app">
+	<div ng-controller="HomeController">
+		<h1>{{title}}</h1>
+		<h1>Increment {{i}}</h1>
+		<input type="button" ng-click="i=i+1" value="Hit Me"/>
+	</div>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/controllers/HomeController.js"></script>
+</body>
+</html>
